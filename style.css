@@ -1,0 +1,79 @@
+h1, h2, tr {
+    font-family:'Trebuchet MS';
+    text-align: center;
+    color: rgb(100, 70, 55);
+}
+
+p, td, li, a {
+    font-family: 'Courier New';
+    color: rgb(90, 60, 45);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td {
+    font-size: small;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+}
+
+body {
+    background-image: url("bg.jpg");
+  }
+
+.pilt {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    column-gap: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    background-color: rgba(175, 95, 75, 0.2);
+    background-blend-mode: darken;
+    float: left;
+    max-width: 50%;
+    padding: 30px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: rgb(100, 70, 55);
+}
+
+caption {
+    font-family:'Trebuchet MS';
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(100, 70, 55);
+    padding-bottom: 20px;
+}
+
+.desc {
+    max-width: 100%;
+    background-color: rgba(175, 95, 75, 0.2);
+    background-blend-mode: darken;
+    float: left;
+    padding: 10px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: rgb(100, 70, 55);
+}
+
+#kunsti {
+    max-width: inherit;
+}
